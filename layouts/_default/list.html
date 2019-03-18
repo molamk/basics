@@ -1,6 +1,6 @@
 {{ define "content" }}
 <section>
-  <ul class="posts_listing">
+  <ul class="posts_listing card">
     {{ range where .Pages.ByDate.Reverse "Section" "post" }}
     <li>
       <div class="row" id="posts">
